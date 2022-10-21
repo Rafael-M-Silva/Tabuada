@@ -53,7 +53,7 @@ footer{
     padding: 10px;
 }
 
-#botao{
+#button{
     background-color: rgb(147, 199, 248);
     width: 100%;
     padding: 10px;
@@ -64,18 +64,20 @@ footer{
     color: white;
     margin-top: 20px;
 }
-#botao:hover{
+#button:hover{
     background-color: rgb(109, 183, 252);
     box-shadow: rgba(138, 138, 241, 0.24) -5px 5px 5px;
 }
-
 #res{
     line-height: 2;
     text-align: center;
 }
-
-/* SEGUNDO DESAFIO */
-
 div{
     padding: 8px;
+}
+input{
+    border: 2px solid rgb(102, 112, 204);
+    border-radius: 4px;
+    background: rgba(109, 183, 252, 0.37);
+    outline: 0;
 }
