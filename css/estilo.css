@@ -1,81 +1,57 @@
-*{
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-body{
-    background-color: rgb(124, 166, 245);
-    font-family: arial;
+body {
+  width: 100vw;
+  background-color: #443f6e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-header{
-    text-align: center;
-    color: white;
+h1, footer{
+  text-align: center;
+  color: white;
 }
-section{
-    background-color: #ffffff;
-    width: 400px;
-    /* height: 300px; */
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.404) 3px 3px 10px;
-    margin: auto;
-    padding: 15px;
+.card{
+  width: 390px;
+  margin: auto;
+  background-color: rgba(240, 255, 255, 0.329);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: white 3px 5px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  border: rgb(255, 255, 255) 2px solid;
 }
-footer{
-    text-align: center;
-    color: white;
-}
-
 #res{
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-    background-color: rgba(199, 198, 198, 0.233);
-    border-radius: 10px;
+  margin-top: 20px;
+  background:rgba(39, 35, 35, 0.281);
+  border-radius: 5px;
+  text-align: center;
 }
-
-.box{
-    width: 200px;
-    background-color: rgb(253, 253, 253);
-    border-radius: 4px;
-    box-shadow: rgba(23, 182, 255, 0.76) 2px 2px 5px;
-    margin-left: 20px;
-    display: block;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: rgb(106, 229, 245) 2px solid;
+.card input{
+  border: 2px rgb(255, 255, 255) solid;
+  border-radius: 4px;
+  background: rgba(238, 231, 231, 0.685);
+  margin-bottom: 20px;
+  font-weight: bold;
+  outline: 0;
 }
-
-.card p {
-    background-color: rgb(147, 199, 248);
-    box-shadow:rgba(94, 117, 121, 0.349) -5px 5px 5px;
-    border-radius: 10px;
-    width: 100%;
-    padding: 10px;
-}
-
 #botao{
-    background-color: rgb(147, 199, 248);
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    border: rgba(0, 81, 255, 0.185) 2px solid;
-    font-weight: bold;
-    color: white;
-    margin-top: 20px;
+  width: 100%;
+  padding: 5px;
+  transition: 0.5s;
+  cursor: pointer;
 }
+
 #botao:hover{
-    background-color: rgb(109, 183, 252);
-    box-shadow: rgba(138, 138, 241, 0.24) -5px 5px 5px;
+  background: #ffffff;
+  transition: 0.5s;
+  color: purple;
+  border: black 2px solid;
 }
 
-#res{
-    line-height: 2;
-    text-align: center;
-}
 
-/* SEGUNDO DESAFIO */
 
-div{
-    padding: 8px;
-}
+
